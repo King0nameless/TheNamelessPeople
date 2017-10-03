@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face { font-family: downcome;
+  src: url('font/downcome.ttf'); }
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  background-color: #7f6170;
+  font-family: downcome;
+}
+
+.header {
+text-align: center;
+background: #95759d;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -20px;
+  font-family: downcome;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 20px;
+}
+
+.site-footer {
+  background: #95759d;
+  text-align: center;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("img/kaneki1.png");
+
+    /* Set a specific height */
+    height: 90%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #7f6170;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #95759d;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #95759d;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0px solid #ccc;
+    border-top: none;
+}
