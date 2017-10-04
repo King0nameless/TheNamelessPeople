@@ -17,8 +17,8 @@ background: #95759d;
 
 .page-wrap {
   min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -20px;
+  /* equal to footer height 
+  margin-bottom: -20px;*/
   font-family: downcome;
 }
 
@@ -58,7 +58,7 @@ background: #95759d;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
 }
 
 /* Style the tab */
